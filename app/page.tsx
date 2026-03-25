@@ -16,6 +16,8 @@ import {
   Phone
 } from "lucide-react";
 import { Galleries } from "@/components/galleries/Galleries";
+import Feedback from "@/components/Feedback";
+import BannerCTA from "@/components/BannerCTA";
 
 export default async function Home() {
 
@@ -35,7 +37,7 @@ export default async function Home() {
             <div className="px-4 sm:px-6 lg:px-8 pt-10 pb-16 flex flex-col justify-center relative z-10">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 w-fit mb-6">
                 <span className="w-2 h-2 rounded-full bg-[#FFC627]"></span>
-                <span className="text-[10px] uppercase tracking-wider font-medium text-white/80">Admissions Open For 2026/2027</span>
+                <span className="text-[10px] uppercase tracking-wider font-medium text-white/80">Open For Admissions</span>
               </div>
               <h1 className="text-3xl md:text-5xl font-semibold tracking-tight leading-[1.1] mb-6 text-white">
                 <span className="text-[#FFC627]">Christ centered</span>, Shaping Minds, and Building Character.
@@ -252,7 +254,7 @@ export default async function Home() {
                             />
                             <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
                             <div className="absolute bottom-4 left-4 right-4">
-                                <span className="bg-[#9e1b66] text-white text-[10px] font-bold px-2 py-1 rounded-sm uppercase tracking-wider mb-2 inline-block">Batam Kota</span>
+                                {/* <span className="bg-[#9e1b66] text-white text-[10px] font-bold px-2 py-1 rounded-sm uppercase tracking-wider mb-2 inline-block">Batam Kota</span> */}
                                 <div className="flex gap-2 mt-1">
                                     <span className="text-white/90 text-xs bg-black/30 backdrop-blur-sm px-2 py-0.5 rounded border border-white/10">TK</span>
                                     <span className="text-white/90 text-xs bg-black/30 backdrop-blur-sm px-2 py-0.5 rounded border border-white/10">SD</span>
@@ -297,7 +299,7 @@ export default async function Home() {
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                             <div className="absolute bottom-4 left-4 right-4">
-                                <span className="bg-[#2c1b4e] text-white text-[10px] font-bold px-2 py-1 rounded-sm uppercase tracking-wider mb-2 inline-block">Batu Aji</span>
+                                {/* <span className="bg-[#2c1b4e] text-white text-[10px] font-bold px-2 py-1 rounded-sm uppercase tracking-wider mb-2 inline-block">Batu Aji</span> */}
                                 <div className="flex gap-2 mt-1">
                                     <span className="text-white/90 text-xs bg-black/30 backdrop-blur-sm px-2 py-0.5 rounded border border-white/10">TK</span>
                                     <span className="text-white/90 text-xs bg-black/30 backdrop-blur-sm px-2 py-0.5 rounded border border-white/10">SD</span>
@@ -333,29 +335,8 @@ export default async function Home() {
             </div>
         </div>
 
-        {/* CTA / Banner */} 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16"> 
-          <div className="bg-[#2c1b4e] rounded-2xl overflow-hidden flex flex-col md:flex-row relative"> 
-            {/* Texture Overlay */}
-            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
-            
-            <div className="p-8 md:p-12 lg:w-3/5 flex flex-col justify-center z-10"> 
-              <h2 className="text-2xl md:text-3xl font-semibold text-white mb-4 tracking-tight">Learn. Grow. <span className="text-[#FFC627]">Reflect Christ.</span></h2> 
-              <p className="text-white/80 text-sm md:text-base font-light leading-relaxed mb-8 max-w-lg">
-                A Christ-centered learning community that nurtures faith, character, and academic excellence equipping students to know God, develop wisdom, and lead with integrity.
-              </p> 
-              <div className="flex gap-4"> 
-                <button className="bg-[#FFC627] text-black px-5 py-2.5 rounded-full font-medium text-sm hover:bg-[#ffcf4d] transition-colors"> Apply Today </button> 
-                <button className="text-white border border-white/20 px-5 py-2.5 rounded-full font-medium text-sm hover:bg-white/10 transition-colors"> Contact Us </button> 
-              </div> 
-            </div> 
-            {/* Banner Image Area */} 
-            <div className="lg:w-2/5 relative min-h-[250px]"> 
-              <div className="absolute inset-0 bg-linear-to-r from-[#2c1b4e] to-transparent z-10"></div>
-              <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=800&auto=format&fit=crop" className="absolute inset-0 w-full h-full object-cover" alt="Students" /> 
-            </div> 
-          </div> 
-        </div> 
+        {/* CTA / Banner */}
+        <BannerCTA />
 
         {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
           <h2 className="text-2xl font-semibold tracking-tight text-gray-900 mb-6">Event & Performance</h2>
@@ -414,21 +395,6 @@ export default async function Home() {
             </div>
           </div>
         </div> */}
-
-        {/* Feedback */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
-          <div className="bg-white p-6 rounded-lg border border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div>
-              <h3 className="font-medium text-gray-900">Provide your feedback</h3>
-              <p className="text-sm text-gray-500 mt-1">Was this page helpful?</p>
-            </div>
-            <div className="flex gap-3">
-              <button className="bg-[#9e1b66] text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-[#801650]">Yes</button>
-              <button className="bg-[#9e1b66] text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-[#801650]">No</button>
-            </div>
-          </div>
-        </div>
-
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Acknowledgement */}
