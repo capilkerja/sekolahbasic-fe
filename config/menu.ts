@@ -17,7 +17,7 @@ export const MENU_ITEMS = [
       ]
     },
     { label: "Student Life", href: "/student-life" },
-    { label: "News", href: "/news" },
-    { label: "Gallery", href: "/gallery" },
-    { label: "Calendar", href: "/calendar" },
+    // { label: "News", href: "/news" },
+    // { label: "Gallery", href: "/gallery" },
+    // { label: "Calendar", href: "/calendar" },
   ];

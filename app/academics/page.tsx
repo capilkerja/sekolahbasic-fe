@@ -146,7 +146,7 @@ export default function Academics() {
             </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
                 
                 <div className="lg:col-span-4">
@@ -306,7 +306,7 @@ export default function Academics() {
                     <img src="https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?q=80&amp;w=800&amp;auto=format&amp;fit=crop" className="absolute inset-0 w-full h-full object-cover" />
                 </div>
             </div>
-        </div>
+        </div> */}
       </>
     );
   }

@@ -142,7 +142,7 @@ export default function StudentLife() {
             </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="flex flex-col md:flex-row justify-between items-end mb-8 gap-4">
                 <div>
                     <h2 className="text-2xl font-semibold tracking-tight text-gray-900 mb-2">Extracurricular Activities</h2>
@@ -419,7 +419,7 @@ export default function StudentLife() {
                     <button className="bg-[#9e1b66] text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-[#801650]">No</button>
                 </div>
             </div>
-        </div>
+        </div> */}
       </>
     );
   }
