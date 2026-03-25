@@ -42,7 +42,7 @@ export default function BreadcrumbHero({
   title,
   description,
   breadcrumbs,
-  backgroundImage = "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/5bab247f-35d9-400d-a82b-fd87cfe913d2_1600w.webp",
+  backgroundImage = "/images/breadcrumb-hero.webp",
   backgroundImageAlt = "Sekolah Kristen BASIC",
 }: BreadcrumbHeroProps) {
   const pathname = usePathname();
@@ -79,7 +79,7 @@ export default function BreadcrumbHero({
           height={1000}
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-linear-to-r from-[#2c1b4e]/90 via-[#9e1b66]/60 to-transparent"></div>
+        <div className="absolute inset-0 bg-linear-to-r from-[#2c1b4e] via-[#9e1b66] to-transparent"></div>
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-20"></div>
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative h-full flex flex-col justify-center">

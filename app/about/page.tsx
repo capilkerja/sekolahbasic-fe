@@ -13,13 +13,61 @@ import Image from "next/image";
           title={
             <>
               Rooted in Faith, <br />
-              <span className="text-transparent bg-clip-text bg-linear-to-r from-[#9e1b66] to-[#A82C51]">
+              <span className="text-[#FFC627]">
                 Growing in Excellence.
               </span>
             </>
           }
           description="Sekolah Kristen BASIC is a community dedicated to holistic education. We combine academic rigor with spiritual growth to prepare the next generation of leaders for Indonesia and the world."
         />
+
+        {/* Founder's Message */}
+        <div className="bg-gray-50 py-20 border-y border-gray-200">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="bg-white rounded-2xl p-8 md:p-12 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100">
+                    <div className="flex flex-col md:flex-row gap-12 items-center">
+                        
+                        <div className="w-full md:w-1/3 shrink-0">
+                            <div className="relative aspect-[4/5] rounded-xl overflow-hidden bg-gray-200">
+                                
+                                <Image 
+                                    src="https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&amp;w=800&amp;auto=format&amp;fit=crop" 
+                                    alt="Sekolah Kristen BASIC Founder" 
+                                    width={800}
+                                    height={1000}
+                                    className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                                />
+                                <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/80 to-transparent p-6">
+                                    <p className="text-white font-semibold text-sm">Drs. Rusdi Tanuwijaya, S.Th</p>
+                                    <p className="text-white/70 text-[10px] uppercase tracking-wider">Founder</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="md:w-2/3">
+                            <div className="inline-flex items-center gap-2 mb-6">
+                                <span className="h-px w-8 bg-[#9e1b66]"></span>
+                                <span className="text-xs font-semibold text-[#9e1b66] uppercase tracking-widest">Founder's Message</span>
+                            </div>
+                            <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-6 tracking-tight">"Education is a matter of the heart."</h2>
+                            <div className="space-y-4 text-sm text-gray-600 leading-relaxed font-light">
+                                <p>
+                                    The foundation of education at Sekolah Kristen Basic is built upon God’s paradigms. We believe that true education is not merely the transfer of knowledge, but the formation of character, wisdom, and responsibility before God and society. As educators, we are entrusted as intellectual gatekeepers called to apply the best pedagogical approaches that respond to each student’s needs, while equipping them to think critically, act ethically, and engage meaningfully with the world around them.
+                                </p>
+                                <p>
+                                    This conviction has guided our journey since 2004, when Sekolah Kristen Basic began humbly as a child care center, playgroup, and kindergarten. Through God’s guidance and the trust of parents, the school continued to grow expanding to elementary education, welcoming hundreds of students, and eventually establishing our own campus in Batam Center. Each step of growth was not driven by ambition alone, but by obedience to God’s leading and a commitment to provide quality Christian education rooted in faith, discipline, and excellence.
+                                </p>
+                                <p>
+                                    Today, Sekolah Kristen Basic serves multiple educational levels across Batam Center and Batu Aji, continuing the vision entrusted to our founder, Drs. Rusdi Tanuwijaya, S.Th., and his family. Our prayer remains unchanged: that God’s love and guidance will continue to flow through this institution, shaping generations of students who reflect Christ-like character grounded in faith, strong in integrity, and prepared to serve their calling in the world.
+                                </p>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
         {/* Vision & Mission */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -160,52 +208,7 @@ import Image from "next/image";
             </div>
         </div>
 
-        <div className="bg-gray-50 py-20 border-y border-gray-200">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="bg-white rounded-2xl p-8 md:p-12 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100">
-                    <div className="flex flex-col md:flex-row gap-12 items-center">
-                        
-                        <div className="w-full md:w-1/3 shrink-0">
-                            <div className="relative aspect-[4/5] rounded-xl overflow-hidden bg-gray-200">
-                                
-                                <Image 
-                                    src="https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&amp;w=800&amp;auto=format&amp;fit=crop" 
-                                    alt="Sekolah Kristen BASIC Founder" 
-                                    width={800}
-                                    height={1000}
-                                    className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-                                />
-                                <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/80 to-transparent p-6">
-                                    <p className="text-white font-semibold text-sm">Drs. Rusdi Tanuwijaya, S.Th</p>
-                                    <p className="text-white/70 text-[10px] uppercase tracking-wider">Founder &amp; Chairman</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="md:w-2/3">
-                            <div className="inline-flex items-center gap-2 mb-6">
-                                <span className="h-px w-8 bg-[#9e1b66]"></span>
-                                <span className="text-xs font-semibold text-[#9e1b66] uppercase tracking-widest">Founder's Message</span>
-                            </div>
-                            <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-6 tracking-tight">"Education is a matter of the heart."</h2>
-                            <div className="space-y-4 text-sm text-gray-600 leading-relaxed font-light">
-                                <p>
-                                    The foundation of education at Sekolah Kristen Basic is built upon God’s paradigms. We believe that true education is not merely the transfer of knowledge, but the formation of character, wisdom, and responsibility before God and society. As educators, we are entrusted as intellectual gatekeepers called to apply the best pedagogical approaches that respond to each student’s needs, while equipping them to think critically, act ethically, and engage meaningfully with the world around them.
-                                </p>
-                                <p>
-                                    This conviction has guided our journey since 2004, when Sekolah Kristen Basic began humbly as a child care center, playgroup, and kindergarten. Through God’s guidance and the trust of parents, the school continued to grow expanding to elementary education, welcoming hundreds of students, and eventually establishing our own campus in Batam Center. Each step of growth was not driven by ambition alone, but by obedience to God’s leading and a commitment to provide quality Christian education rooted in faith, discipline, and excellence.
-                                </p>
-                                <p>
-                                    Today, Sekolah Kristen Basic serves multiple educational levels across Batam Center and Batu Aji, continuing the vision entrusted to our founder, Drs. Rusdi Tanuwijaya, S.Th., and his family. Our prayer remains unchanged: that God’s love and guidance will continue to flow through this institution, shaping generations of students who reflect Christ-like character grounded in faith, strong in integrity, and prepared to serve their calling in the world.
-                                </p>
-                            </div>
-                            
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
             <div className="text-center mb-16">
