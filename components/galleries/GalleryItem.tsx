@@ -69,16 +69,19 @@ export function GalleryItem({ item }: Props) {
         plugins={[Thumbnails]}
         // This ensures YARL uses Next.js Image optimization for the slides
         render={{
-          slide: ({ slide, rect }) => (
-            <div className="relative w-full h-full">
-              <Image
-                src={slide.src}
-                alt={slide.alt || "Gallery Image"}
-                fill
-                className="object-contain"
-              />
-            </div>
-          ),
+          slide: ({ slide }) => {
+            if (!("src" in slide)) return null;
+            return (
+              <div className="relative w-full h-full">
+                <Image
+                  src={slide.src}
+                  alt={"alt" in slide ? (slide.alt || "Gallery Image") : "Gallery Image"}
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            );
+          },
         }}
       />
     </>
