@@ -1,15 +1,5 @@
-export async function getGalleries() {
-  const res = await fetch(
-      `${process.env.API_BASE_URL}/api/v1/galleries?page[size]=3`,
-      // {
-      //   next: { revalidate: 300 },
-      // }
-    );
+import { staticGalleries } from "@/lib/data/galleries";
 
-  if (!res.ok) {
-      throw new Error("Failed to fetch galleries");
-  }
-
-  const json = await res.json();
-  return json.data;
+export async function getGalleries(limit?: number) {
+  return limit ? staticGalleries.slice(0, limit) : staticGalleries;
 }

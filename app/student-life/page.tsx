@@ -1,8 +1,7 @@
 import BreadcrumbHero from "@/components/BreadcrumbHero";
 import Image from "next/image";
+import { DailySchedule } from "@/components/student-life/DailySchedule";
 import {
-  Download,
-  Coffee,
   HeartHandshake,
   ShieldCheck,
   Lightbulb,
@@ -23,81 +22,7 @@ export default function StudentLife() {
           description="A vibrant community where faith, friendship, and personal growth come together. Discover what it means to be a student at BASIC."
         />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-            <div className="flex flex-col md:flex-row gap-12">
-                <div className="md:w-1/3">
-                    <div className="sticky top-40">
-                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-100 w-fit mb-4">
-                            <span className="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
-                            <span className="text-[10px] uppercase tracking-wider font-medium text-blue-800">Routine</span>
-                        </div>
-                        <h2 className="text-2xl font-semibold tracking-tight text-gray-900 mb-4">Daily Life at School</h2>
-                        <p className="text-sm text-gray-500 leading-relaxed mb-6">
-                            Our schedule is designed to balance rigorous academics with spiritual enrichment and social connection. Every day starts with gratitude and ends with growth.
-                        </p>
-                        <a href="#" className="inline-flex items-center text-xs font-medium text-[#9e1b66] hover:underline gap-1">
-                          Download Timetable <Download className="w-3 h-3" />
-                        </a>
-                    </div>
-                </div>
-
-                <div className="md:w-2/3">
-                    <div className="space-y-0 relative border-l border-dashed border-gray-200 ml-4">
-                        
-                        <div className="relative pl-8 pb-10">
-                            <div className="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-[#FFC627] border-4 border-white shadow-sm"></div>
-                            <span className="text-xs font-medium text-gray-400 font-mono mb-1 block">07:15 AM</span>
-                            <h3 className="text-base font-semibold text-gray-900 mb-2">Morning Devotion</h3>
-                            <div className="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
-                                <p className="text-sm text-gray-600">Students and teachers gather for worship, scripture reading, and prayer to center the day on Christ.</p>
-                            </div>
-                        </div>
-
-                        <div className="relative pl-8 pb-10">
-                            <div className="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-gray-200 border-4 border-white shadow-sm"></div>
-                            <span className="text-xs font-medium text-gray-400 font-mono mb-1 block">08:00 AM</span>
-                            <h3 className="text-base font-semibold text-gray-900 mb-2">Academic Block I</h3>
-                            <div className="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
-                                <p className="text-sm text-gray-600">Focused learning sessions covering core subjects like Mathematics, Science, and Languages.</p>
-                            </div>
-                        </div>
-
-                        <div className="relative pl-8 pb-10">
-                            <div className="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-gray-200 border-4 border-white shadow-sm"></div>
-                            <span className="text-xs font-medium text-gray-400 font-mono mb-1 block">10:00 AM</span>
-                            <h3 className="text-base font-semibold text-gray-900 mb-2">Recess &amp; Fellowship</h3>
-                            <div className="bg-white p-4 rounded-lg border border-gray-200 shadow-sm flex gap-4 items-center">
-                                <div className="bg-orange-50 p-2 rounded text-orange-600 shrink-0">
-                                  <Coffee className="w-5 h-5" />
-                                </div>
-                                <p className="text-sm text-gray-600">
-                                  A time to recharge, enjoy healthy snacks, and build friendships on the playground.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="relative pl-8 pb-10">
-                            <div className="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-gray-200 border-4 border-white shadow-sm"></div>
-                            <span className="text-xs font-medium text-gray-400 font-mono mb-1 block">12:30 PM</span>
-                            <h3 className="text-base font-semibold text-gray-900 mb-2">Lunch &amp; Clubs</h3>
-                            <div className="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
-                                <p className="text-sm text-gray-600">Communal lunch followed by student-led interest groups and library time.</p>
-                            </div>
-                        </div>
-
-                        <div className="relative pl-8">
-                            <div className="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-[#9e1b66] border-4 border-white shadow-sm"></div>
-                            <span className="text-xs font-medium text-gray-400 font-mono mb-1 block">03:30 PM</span>
-                            <h3 className="text-base font-semibold text-gray-900 mb-2">Dismissal &amp; Co-Curriculars</h3>
-                            <div className="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
-                                <p className="text-sm text-gray-600">School concludes, transitioning into sports training, music rehearsals, and leadership programs.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+        <DailySchedule />
 
         <div className="bg-white border-y border-gray-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">

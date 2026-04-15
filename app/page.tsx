@@ -23,7 +23,7 @@ export default async function Home() {
 
   const events = await getUpcomingEvents();
 
-  const galleries = await getGalleries();
+  const galleries = await getGalleries(3);
 
   return (
     <>

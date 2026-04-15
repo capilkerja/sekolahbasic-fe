@@ -1,6 +1,8 @@
 export interface GalleryImage {
     url: string;
     alt: string;
+    type?: "image" | "video";
+    poster?: string; // thumbnail url untuk video
 }
 
 export interface GalleryItem {

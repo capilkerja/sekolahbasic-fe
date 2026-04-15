@@ -43,8 +43,7 @@ export function GalleryItem({ item }: Props) {
               src={firstImage}
               alt={item.name} 
               fill
-              unoptimized={process.env.NODE_ENV === 'development'}
-              className="w-full h-full object-cover" 
+                className="w-full h-full object-cover"
             /> 
             
             <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-80"></div>
@@ -77,7 +76,6 @@ export function GalleryItem({ item }: Props) {
                 alt={slide.alt || "Gallery Image"}
                 fill
                 className="object-contain"
-                unoptimized={process.env.NODE_ENV === 'development'}
               />
             </div>
           ),
