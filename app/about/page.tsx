@@ -27,11 +27,11 @@ import Image from "next/image";
                             <div className="relative aspect-[4/5] rounded-xl overflow-hidden bg-gray-200">
                                 
                                 <Image 
-                                    src="https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&amp;w=800&amp;auto=format&amp;fit=crop" 
-                                    alt="Sekolah Kristen BASIC Founder" 
+                                    src="/images/founder.png"
+                                    alt="Drs. Rusdi Tanuwijaya, S.Th — Founder Sekolah Kristen BASIC" 
                                     width={800}
                                     height={1000}
-                                    className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                                    className="w-full h-full object-cover"
                                 />
                                 <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/80 to-transparent p-6">
                                     <p className="text-white font-semibold text-sm">Drs. Rusdi Tanuwijaya, S.Th</p>
