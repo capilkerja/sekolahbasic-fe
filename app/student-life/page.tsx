@@ -2,10 +2,10 @@ import BreadcrumbHero from "@/components/BreadcrumbHero";
 import Image from "next/image";
 import { DailySchedule } from "@/components/student-life/DailySchedule";
 import {
-  HeartHandshake,
+  Sparkles,
+  Palette,
+  HandMetal,
   ShieldCheck,
-  Lightbulb,
-  Users2,
   Heart,
   MessageCircleHeart,
   BookOpenCheck,
@@ -27,41 +27,58 @@ export default function StudentLife() {
         <div className="bg-white border-y border-gray-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                 <div className="text-center mb-12">
-                    <h2 className="text-2xl font-semibold tracking-tight text-gray-900 mb-3">Character &amp; Values in Action</h2>
-                    <p className="text-gray-500 text-sm max-w-2xl mx-auto">We don't just teach values; we live them. Our community is built on four core pillars that guide our interactions.</p>
+                    <span className="inline-flex items-center gap-2 text-xs font-semibold text-[#9e1b66] uppercase tracking-widest mb-3">
+                        <span className="h-px w-6 bg-[#9e1b66]" /> Nilai-Nilai Kami <span className="h-px w-6 bg-[#9e1b66]" />
+                    </span>
+                    <h2 className="text-2xl font-semibold tracking-tight text-gray-900 mb-3">
+                        Hidup <span className="text-[#9e1b66]">BISA</span>
+                    </h2>
+                    <p className="text-gray-500 text-sm max-w-2xl mx-auto">Empat nilai yang kami tanamkan setiap hari — bukan sekadar kata-kata, melainkan cara hidup yang membentuk karakter setiap siswa BASIC.</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     <div className="group relative bg-gray-50 rounded-xl p-6 transition-all hover:bg-white hover:shadow-lg border border-transparent hover:border-gray-100">
-                        <div className="w-10 h-10 rounded-lg bg-teal-100 text-teal-700 flex items-center justify-center mb-4 group-hover:bg-teal-600 group-hover:text-white transition-colors">
-                            <HeartHandshake className="w-5 h-5" />
+                        <div className="flex items-center gap-3 mb-4">
+                            <div className="w-10 h-10 rounded-lg bg-teal-100 text-teal-700 flex items-center justify-center group-hover:bg-teal-600 group-hover:text-white transition-colors shrink-0">
+                                <Sparkles className="w-5 h-5" />
+                            </div>
+                            <span className="text-3xl font-bold text-teal-100 group-hover:text-teal-50 transition-colors select-none">B</span>
                         </div>
-                        <h3 className="font-semibold text-gray-900 text-base mb-2">Servant Leadership</h3>
-                        <p className="text-xs text-gray-500 leading-relaxed">Students are encouraged to lead by serving others, modeling humility and care in peer tutoring and community projects.</p>
+                        <h3 className="font-semibold text-gray-900 text-base mb-2">Bersih</h3>
+                        <p className="text-xs text-gray-500 leading-relaxed">Menjaga kebersihan diri, ruang kelas, dan lingkungan sekolah sebagai wujud rasa syukur dan tanggung jawab kepada Tuhan dan sesama.</p>
                     </div>
 
                     <div className="group relative bg-gray-50 rounded-xl p-6 transition-all hover:bg-white hover:shadow-lg border border-transparent hover:border-gray-100">
-                        <div className="w-10 h-10 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center mb-4 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
-                            <ShieldCheck className="w-5 h-5" />
+                        <div className="flex items-center gap-3 mb-4">
+                            <div className="w-10 h-10 rounded-lg bg-purple-100 text-purple-700 flex items-center justify-center group-hover:bg-purple-600 group-hover:text-white transition-colors shrink-0">
+                                <Palette className="w-5 h-5" />
+                            </div>
+                            <span className="text-3xl font-bold text-purple-100 group-hover:text-purple-50 transition-colors select-none">I</span>
                         </div>
-                        <h3 className="font-semibold text-gray-900 text-base mb-2">Integrity</h3>
-                        <p className="text-xs text-gray-500 leading-relaxed">Doing the right thing even when no one is watching. Honesty in academics and relationships is non-negotiable.</p>
+                        <h3 className="font-semibold text-gray-900 text-base mb-2">Indah</h3>
+                        <p className="text-xs text-gray-500 leading-relaxed">Menciptakan lingkungan yang indah, rapi, dan menyenangkan melalui kreativitas dan sikap yang membawa sukacita bagi orang-orang di sekitar.</p>
                     </div>
 
                     <div className="group relative bg-gray-50 rounded-xl p-6 transition-all hover:bg-white hover:shadow-lg border border-transparent hover:border-gray-100">
-                        <div className="w-10 h-10 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center mb-4 group-hover:bg-amber-500 group-hover:text-white transition-colors">
-                            <Lightbulb className="w-5 h-5" />
+                        <div className="flex items-center gap-3 mb-4">
+                            <div className="w-10 h-10 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center group-hover:bg-amber-500 group-hover:text-white transition-colors shrink-0">
+                                <HandMetal className="w-5 h-5" />
+                            </div>
+                            <span className="text-3xl font-bold text-amber-100 group-hover:text-amber-50 transition-colors select-none">S</span>
                         </div>
-                        <h3 className="font-semibold text-gray-900 text-base mb-2">Excellence</h3>
-                        <p className="text-xs text-gray-500 leading-relaxed">Striving for one's personal best, understanding that our talents are gifts to be developed fully for God's glory.</p>
+                        <h3 className="font-semibold text-gray-900 text-base mb-2">Sopan</h3>
+                        <p className="text-xs text-gray-500 leading-relaxed">Menunjukkan sikap hormat, tutur kata yang baik, dan perilaku yang santun kepada guru, teman, orang tua, dan seluruh warga sekolah.</p>
                     </div>
 
                     <div className="group relative bg-gray-50 rounded-xl p-6 transition-all hover:bg-white hover:shadow-lg border border-transparent hover:border-gray-100">
-                        <div className="w-10 h-10 rounded-lg bg-rose-100 text-rose-700 flex items-center justify-center mb-4 group-hover:bg-rose-600 group-hover:text-white transition-colors">
-                            <Users2 className="w-5 h-5" />
+                        <div className="flex items-center gap-3 mb-4">
+                            <div className="w-10 h-10 rounded-lg bg-rose-100 text-rose-700 flex items-center justify-center group-hover:bg-rose-600 group-hover:text-white transition-colors shrink-0">
+                                <ShieldCheck className="w-5 h-5" />
+                            </div>
+                            <span className="text-3xl font-bold text-rose-100 group-hover:text-rose-50 transition-colors select-none">A</span>
                         </div>
-                        <h3 className="font-semibold text-gray-900 text-base mb-2">Respect</h3>
-                        <p className="text-xs text-gray-500 leading-relaxed">Honoring the dignity of every individual, celebrating our diverse backgrounds, and practicing kindness daily.</p>
+                        <h3 className="font-semibold text-gray-900 text-base mb-2">Aman</h3>
+                        <p className="text-xs text-gray-500 leading-relaxed">Menciptakan rasa aman bagi setiap warga sekolah melalui sikap saling menjaga, melindungi, dan bertanggung jawab atas kenyamanan bersama.</p>
                     </div>
                 </div>
             </div>
