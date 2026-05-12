@@ -42,7 +42,6 @@ export default function StudentLife() {
                             <div className="w-10 h-10 rounded-lg bg-teal-100 text-teal-700 flex items-center justify-center group-hover:bg-teal-600 group-hover:text-white transition-colors shrink-0">
                                 <Sparkles className="w-5 h-5" />
                             </div>
-                            <span className="text-3xl font-bold text-teal-100 group-hover:text-teal-50 transition-colors select-none">B</span>
                         </div>
                         <h3 className="font-semibold text-gray-900 text-base mb-2">Bersih — Clean</h3>
                         <p className="text-xs text-gray-500 leading-relaxed">Keeping ourselves, our classrooms, and our school environment clean as an expression of gratitude and responsibility to God and others.</p>
@@ -53,7 +52,6 @@ export default function StudentLife() {
                             <div className="w-10 h-10 rounded-lg bg-purple-100 text-purple-700 flex items-center justify-center group-hover:bg-purple-600 group-hover:text-white transition-colors shrink-0">
                                 <Palette className="w-5 h-5" />
                             </div>
-                            <span className="text-3xl font-bold text-purple-100 group-hover:text-purple-50 transition-colors select-none">I</span>
                         </div>
                         <h3 className="font-semibold text-gray-900 text-base mb-2">Indah — Beautiful</h3>
                         <p className="text-xs text-gray-500 leading-relaxed">Creating a beautiful, orderly, and joyful environment through creativity and an attitude that brings happiness to everyone around us.</p>
@@ -64,7 +62,6 @@ export default function StudentLife() {
                             <div className="w-10 h-10 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center group-hover:bg-amber-500 group-hover:text-white transition-colors shrink-0">
                                 <HandMetal className="w-5 h-5" />
                             </div>
-                            <span className="text-3xl font-bold text-amber-100 group-hover:text-amber-50 transition-colors select-none">S</span>
                         </div>
                         <h3 className="font-semibold text-gray-900 text-base mb-2">Sopan — Polite</h3>
                         <p className="text-xs text-gray-500 leading-relaxed">Showing respect, kind words, and courteous behavior toward teachers, friends, parents, and every member of the school community.</p>
@@ -75,7 +72,6 @@ export default function StudentLife() {
                             <div className="w-10 h-10 rounded-lg bg-rose-100 text-rose-700 flex items-center justify-center group-hover:bg-rose-600 group-hover:text-white transition-colors shrink-0">
                                 <ShieldCheck className="w-5 h-5" />
                             </div>
-                            <span className="text-3xl font-bold text-rose-100 group-hover:text-rose-50 transition-colors select-none">A</span>
                         </div>
                         <h3 className="font-semibold text-gray-900 text-base mb-2">Aman — Safe</h3>
                         <p className="text-xs text-gray-500 leading-relaxed">Building a safe space for every member of the school through mutual care, protection, and shared responsibility for one another's wellbeing.</p>
