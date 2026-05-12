@@ -28,12 +28,12 @@ export default function StudentLife() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                 <div className="text-center mb-12">
                     <span className="inline-flex items-center gap-2 text-xs font-semibold text-[#9e1b66] uppercase tracking-widest mb-3">
-                        <span className="h-px w-6 bg-[#9e1b66]" /> Nilai-Nilai Kami <span className="h-px w-6 bg-[#9e1b66]" />
+                        <span className="h-px w-6 bg-[#9e1b66]" /> Our Values <span className="h-px w-6 bg-[#9e1b66]" />
                     </span>
                     <h2 className="text-2xl font-semibold tracking-tight text-gray-900 mb-3">
-                        Hidup <span className="text-[#9e1b66]">BISA</span>
+                        Living <span className="text-[#9e1b66]">BISA</span>
                     </h2>
-                    <p className="text-gray-500 text-sm max-w-2xl mx-auto">Empat nilai yang kami tanamkan setiap hari — bukan sekadar kata-kata, melainkan cara hidup yang membentuk karakter setiap siswa BASIC.</p>
+                    <p className="text-gray-500 text-sm max-w-2xl mx-auto">Four values we live every day — not just words, but a way of life that shapes the character of every BASIC student.</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -44,8 +44,8 @@ export default function StudentLife() {
                             </div>
                             <span className="text-3xl font-bold text-teal-100 group-hover:text-teal-50 transition-colors select-none">B</span>
                         </div>
-                        <h3 className="font-semibold text-gray-900 text-base mb-2">Bersih</h3>
-                        <p className="text-xs text-gray-500 leading-relaxed">Menjaga kebersihan diri, ruang kelas, dan lingkungan sekolah sebagai wujud rasa syukur dan tanggung jawab kepada Tuhan dan sesama.</p>
+                        <h3 className="font-semibold text-gray-900 text-base mb-2">Bersih — Clean</h3>
+                        <p className="text-xs text-gray-500 leading-relaxed">Keeping ourselves, our classrooms, and our school environment clean as an expression of gratitude and responsibility to God and others.</p>
                     </div>
 
                     <div className="group relative bg-gray-50 rounded-xl p-6 transition-all hover:bg-white hover:shadow-lg border border-transparent hover:border-gray-100">
@@ -55,8 +55,8 @@ export default function StudentLife() {
                             </div>
                             <span className="text-3xl font-bold text-purple-100 group-hover:text-purple-50 transition-colors select-none">I</span>
                         </div>
-                        <h3 className="font-semibold text-gray-900 text-base mb-2">Indah</h3>
-                        <p className="text-xs text-gray-500 leading-relaxed">Menciptakan lingkungan yang indah, rapi, dan menyenangkan melalui kreativitas dan sikap yang membawa sukacita bagi orang-orang di sekitar.</p>
+                        <h3 className="font-semibold text-gray-900 text-base mb-2">Indah — Beautiful</h3>
+                        <p className="text-xs text-gray-500 leading-relaxed">Creating a beautiful, orderly, and joyful environment through creativity and an attitude that brings happiness to everyone around us.</p>
                     </div>
 
                     <div className="group relative bg-gray-50 rounded-xl p-6 transition-all hover:bg-white hover:shadow-lg border border-transparent hover:border-gray-100">
@@ -66,8 +66,8 @@ export default function StudentLife() {
                             </div>
                             <span className="text-3xl font-bold text-amber-100 group-hover:text-amber-50 transition-colors select-none">S</span>
                         </div>
-                        <h3 className="font-semibold text-gray-900 text-base mb-2">Sopan</h3>
-                        <p className="text-xs text-gray-500 leading-relaxed">Menunjukkan sikap hormat, tutur kata yang baik, dan perilaku yang santun kepada guru, teman, orang tua, dan seluruh warga sekolah.</p>
+                        <h3 className="font-semibold text-gray-900 text-base mb-2">Sopan — Polite</h3>
+                        <p className="text-xs text-gray-500 leading-relaxed">Showing respect, kind words, and courteous behavior toward teachers, friends, parents, and every member of the school community.</p>
                     </div>
 
                     <div className="group relative bg-gray-50 rounded-xl p-6 transition-all hover:bg-white hover:shadow-lg border border-transparent hover:border-gray-100">
@@ -77,8 +77,8 @@ export default function StudentLife() {
                             </div>
                             <span className="text-3xl font-bold text-rose-100 group-hover:text-rose-50 transition-colors select-none">A</span>
                         </div>
-                        <h3 className="font-semibold text-gray-900 text-base mb-2">Aman</h3>
-                        <p className="text-xs text-gray-500 leading-relaxed">Menciptakan rasa aman bagi setiap warga sekolah melalui sikap saling menjaga, melindungi, dan bertanggung jawab atas kenyamanan bersama.</p>
+                        <h3 className="font-semibold text-gray-900 text-base mb-2">Aman — Safe</h3>
+                        <p className="text-xs text-gray-500 leading-relaxed">Building a safe space for every member of the school through mutual care, protection, and shared responsibility for one another's wellbeing.</p>
                     </div>
                 </div>
             </div>
