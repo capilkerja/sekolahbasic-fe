@@ -25,15 +25,15 @@ type Position = {
   level?: string;
 };
 
-type Campus = {
+type School = {
   name: string;
   location: string;
   positions: Position[];
 };
 
-const CAMPUSES: Campus[] = [
+const SCHOOLS: School[] = [
   {
-    name: "Batu Aji Campus",
+    name: "Sekolah BASIC Batu Aji",
     location: "Sekolah Kristen BASIC — Batu Aji",
     positions: [
       {
@@ -57,7 +57,7 @@ const CAMPUSES: Campus[] = [
     ],
   },
   {
-    name: "Batam Center Campus",
+    name: "Sekolah BASIC Batam Center",
     location: "Sekolah Kristen BASIC — Batam Center",
     positions: [
       {
@@ -165,7 +165,7 @@ export default function Careers() {
               </span>
               <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-gray-900">Open Positions</h2>
               <p className="text-gray-500 text-sm mt-2">
-                Currently {CAMPUSES.reduce((sum, c) => sum + c.positions.reduce((s, p) => s + p.count, 0), 0)} seats open across 2 campuses.
+                Currently {SCHOOLS.reduce((sum, s) => sum + s.positions.reduce((acc, p) => acc + p.count, 0), 0)} seats open across 2 schools.
               </p>
             </div>
             <a
@@ -177,16 +177,16 @@ export default function Careers() {
           </div>
 
           <div className="space-y-10">
-            {CAMPUSES.map((campus) => (
-              <div key={campus.name}>
+            {SCHOOLS.map((school) => (
+              <div key={school.name}>
                 <div className="flex items-center gap-2 mb-5">
                   <MapPin className="w-4 h-4 text-gray-400" />
-                  <h3 className="text-sm font-semibold text-gray-900">{campus.name}</h3>
-                  <span className="text-xs text-gray-400">— {campus.location}</span>
+                  <h3 className="text-sm font-semibold text-gray-900">{school.name}</h3>
+                  <span className="text-xs text-gray-400">— {school.location}</span>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {campus.positions.map((pos) => (
+                  {school.positions.map((pos) => (
                     <div
                       key={pos.title}
                       className="group bg-white rounded-xl p-5 border border-gray-100 hover:border-[#9e1b66]/30 hover:shadow-md transition-all"

@@ -51,7 +51,7 @@ import Image from "next/image";
                                     The foundation of education at Sekolah Kristen Basic is built upon God’s paradigms. We believe that true education is not merely the transfer of knowledge, but the formation of character, wisdom, and responsibility before God and society. As educators, we are entrusted as intellectual gatekeepers called to apply the best pedagogical approaches that respond to each student’s needs, while equipping them to think critically, act ethically, and engage meaningfully with the world around them.
                                 </p>
                                 <p>
-                                    This conviction has guided our journey since 2004, when Sekolah Kristen Basic began humbly as a child care center, playgroup, and kindergarten. Through God’s guidance and the trust of parents, the school continued to grow expanding to elementary education, welcoming hundreds of students, and eventually establishing our own campus in Batam Center. Each step of growth was not driven by ambition alone, but by obedience to God’s leading and a commitment to provide quality Christian education rooted in faith, discipline, and excellence.
+                                    This conviction has guided our journey since 2004, when Sekolah Kristen Basic began humbly as a child care center, playgroup, and kindergarten. Through God’s guidance and the trust of parents, the school continued to grow expanding to elementary education, welcoming hundreds of students, and eventually establishing our own school in Batam Center. Each step of growth was not driven by ambition alone, but by obedience to God’s leading and a commitment to provide quality Christian education rooted in faith, discipline, and excellence.
                                 </p>
                                 <p>
                                     Today, Sekolah Kristen Basic serves multiple educational levels across Batam Center and Batu Aji, continuing the vision entrusted to our founder, Drs. Rusdi Tanuwijaya, S.Th., and his family. Our prayer remains unchanged: that God’s love and guidance will continue to flow through this institution, shaping generations of students who reflect Christ-like character grounded in faith, strong in integrity, and prepared to serve their calling in the world.
@@ -233,7 +233,7 @@ import Image from "next/image";
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
                 <h2 className="text-2xl md:text-3xl font-semibold text-white mb-4 tracking-tight">Be Part of Our Story</h2>
                 <p className="text-white/70 text-sm max-w-xl mx-auto mb-8">
-                    Join a community that values faith, knowledge, and character. We invite you to visit our campus and see the BASIC difference.
+                    Join a community that values faith, knowledge, and character. We invite you to visit our school and see the BASIC difference.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <button className="bg-[#FFC627] text-black px-6 py-3 rounded-md font-medium text-xs md:text-sm hover:bg-[#ffcf4d] transition-colors shadow-lg shadow-[#FFC627]/20">

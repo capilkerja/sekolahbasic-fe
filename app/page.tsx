@@ -271,7 +271,7 @@ export default async function Home() {
                                 </div>
                             </div>
                             <p className="text-xs text-gray-500 mb-4 line-clamp-2">
-                                Located in the heart of Batam Center, our main campus offers a complete educational journey from Kindergarten to High School with state-of-the-art facilities.
+                                Located in the heart of Batam Center, our main school offers a complete educational journey from Kindergarten to High School with state-of-the-art facilities.
                             </p>
                             <div className="flex flex-col gap-2 text-xs text-gray-600 border-t border-gray-50 pt-4">
                                 <div className="flex items-start gap-2">

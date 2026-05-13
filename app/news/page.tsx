@@ -308,13 +308,13 @@ export default function News() {
                         <div className="relative h-[450px] rounded-2xl overflow-hidden shadow-lg border border-gray-200">
                     <Image
                       src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&amp;w=800&amp;auto=format&amp;fit=crop"
-                      alt="New campus wing architectural render"
+                      alt="New school building architectural render"
                       width={800}
                       height={450}
                       className="w-full h-full object-cover"
                     />
                     <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent p-6">
-                        <p className="text-white text-xs font-medium">New Campus Wing</p>
+                        <p className="text-white text-xs font-medium">New School Building</p>
                         <p className="text-white/70 text-[10px]">Architectural Render</p>
                     </div>
                 </div>
