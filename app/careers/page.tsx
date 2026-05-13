@@ -38,13 +38,13 @@ const CAMPUSES: Campus[] = [
     positions: [
       {
         title: "Math Teacher",
-        count: 4,
+        count: 2,
         icon: <Calculator className="w-5 h-5" />,
         color: "bg-blue-50 text-blue-700",
       },
       {
         title: "Science Teacher",
-        count: 2,
+        count: 1,
         icon: <FlaskConical className="w-5 h-5" />,
         color: "bg-emerald-50 text-emerald-700",
       },
