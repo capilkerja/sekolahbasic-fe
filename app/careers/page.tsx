@@ -13,7 +13,6 @@ import {
   Users,
   ArrowRight,
   Mail,
-  Phone,
   CheckCircle2,
 } from "lucide-react";
 
@@ -279,7 +278,7 @@ export default function Careers() {
 
               <div className="space-y-3 mb-8">
                 <a
-                  href="mailto:hrd@sekolahbasic.com"
+                  href="mailto:hrd@sekolahbasic.sch.id"
                   className="flex items-center gap-3 text-white hover:text-[#FFC627] transition-colors"
                 >
                   <div className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center">
@@ -287,25 +286,13 @@ export default function Careers() {
                   </div>
                   <div>
                     <p className="text-[10px] uppercase tracking-wider text-white/50">Email Application</p>
-                    <p className="text-sm font-medium">hrd@sekolahbasic.com</p>
-                  </div>
-                </a>
-                <a
-                  href="tel:+6277812345678"
-                  className="flex items-center gap-3 text-white hover:text-[#FFC627] transition-colors"
-                >
-                  <div className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center">
-                    <Phone className="w-4 h-4" />
-                  </div>
-                  <div>
-                    <p className="text-[10px] uppercase tracking-wider text-white/50">Or Call</p>
-                    <p className="text-sm font-medium">+62 778 1234 5678</p>
+                    <p className="text-sm font-medium">hrd@sekolahbasic.sch.id</p>
                   </div>
                 </a>
               </div>
 
               <a
-                href="mailto:hrd@sekolahbasic.com?subject=Application for Teacher Position"
+                href="mailto:hrd@sekolahbasic.sch.id?subject=Application for Teacher Position"
                 className="inline-flex items-center gap-2 bg-[#FFC627] text-black px-6 py-3 rounded-full font-medium text-sm hover:bg-[#ffcf4d] transition-colors shadow-lg shadow-[#FFC627]/20"
               >
                 <Mail className="w-4 h-4" /> Send Application
