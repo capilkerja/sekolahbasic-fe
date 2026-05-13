@@ -165,7 +165,7 @@ export default function Careers() {
               </span>
               <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-gray-900">Open Positions</h2>
               <p className="text-gray-500 text-sm mt-2">
-                Currently {CAMPUSES.reduce((sum, c) => sum + c.positions.reduce((s, p) => s + p.count, 0), 0)} positions open across 2 campuses.
+                Currently {CAMPUSES.reduce((sum, c) => sum + c.positions.reduce((s, p) => s + p.count, 0), 0)} seats open across 2 campuses.
               </p>
             </div>
             <a
@@ -196,7 +196,7 @@ export default function Careers() {
                           {pos.icon}
                         </div>
                         <span className="inline-flex items-center gap-1 bg-gray-100 text-gray-600 text-[10px] font-semibold px-2 py-0.5 rounded-full">
-                          {pos.count} {pos.count > 1 ? "openings" : "opening"}
+                          {pos.count} {pos.count > 1 ? "seats" : "seat"}
                         </span>
                       </div>
                       <h4 className="font-semibold text-gray-900 text-base mb-1">{pos.title}</h4>
