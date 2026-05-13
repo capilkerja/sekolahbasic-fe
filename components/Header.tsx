@@ -87,9 +87,13 @@ export default function Header() {
           {/* Right Utility */}
           <div className="w-full lg:w-auto flex flex-col items-end gap-3">
             <div className="hidden lg:flex items-center gap-6 text-xs font-medium text-gray-500">
-              {['Admissions', 'Careers', 'Contact'].map((item) => (
-                <Link key={item} href="#" className="hover:text-[#9e1b66] transition-colors">
-                  {item}
+              {[
+                { label: 'Admissions', href: '#' },
+                { label: 'Careers', href: '/careers' },
+                { label: 'Contact', href: '#' },
+              ].map((item) => (
+                <Link key={item.label} href={item.href} className="hover:text-[#9e1b66] transition-colors">
+                  {item.label}
                 </Link>
               ))}
             </div>
