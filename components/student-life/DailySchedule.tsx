@@ -238,8 +238,8 @@ const LEVELS: LevelData[] = [
     excul: "Extracurricular based on schedule — every day.",
   },
   {
-    key: "sma",
-    label: "SMA",
+    key: "senior-high",
+    label: "Senior High",
     hours: "07.30 – 15.45",
     schedule: [
       {
